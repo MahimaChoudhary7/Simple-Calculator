@@ -1,29 +1,37 @@
-# calculator
+# 🧮 Vue.js Calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple, elegant calculator built using **Vue.js**. Supports basic arithmetic operations like addition, subtraction, multiplication, and division, along with decimal input and reset functionality.
 
-## Recommended IDE Setup
+## 📦 Project Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+- Addition, Subtraction, Multiplication, Division
+- Decimal support
+- Clear Entry (`CE`) button
+- Displays full expression and result
+- Styled with responsive design and gradient background
+- Error handling for division by zero
+  
+## 📁 Project Structure
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run development server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
+
+## Folder Structure
+/calculator
+├── public/
+├── src/
+│ ├── App.vue # Main Vue component (contains calculator UI + logic)
+│ ├── main.js # App entry point
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation (this file)
+
+## Technologies Used
+- Vue.js 3
+- JavaScript
+- HTML5 + CSS3
