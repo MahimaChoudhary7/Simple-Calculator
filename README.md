@@ -10,6 +10,11 @@ A simple, elegant calculator built using **Vue.js**. Supports basic arithmetic o
 - Displays full expression and result
 - Styled with responsive design and gradient background
 - Error handling for division by zero
+
+## Technologies Used
+- Vue.js 3
+- JavaScript
+- HTML5 + CSS3
   
 ## 📁 Project Structure
 ```bash
@@ -31,7 +36,4 @@ npm run build
 ├── package.json # Project metadata and dependencies
 └── README.md # Project documentation (this file)
 
-## Technologies Used
-- Vue.js 3
-- JavaScript
-- HTML5 + CSS3
+
